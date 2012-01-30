@@ -1,11 +1,9 @@
-The Hard Way Is Easier
+前言：笨办法更简单
 ======================
 
-This simple book is meant to get you started in programming. The title
-says it's the hard way to learn to write code; but it's actually not.
-It's only the "hard" way because it's the way people *used* to teach
-things. With the help of this book, you will do the incredibly simple
-things that all programmers need to do to learn a language:
+这本小书的目的是让你起步编程。虽然书名说是“笨办法”,但其实并非如此。
+所谓的“笨办法”是指本书教授的方式。在这本书的帮助下，你将通过非常简单的练习学会一门编程语言。
+做练习是每个程序员的必经之路：
 
 1. Go through each exercise.
 2. Type in each sample exactly.
