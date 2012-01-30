@@ -1,14 +1,15 @@
-Learn Ruby The Hard Way
+笨方法学Ruby
 =======================
 
-Welcome to Learn Ruby the hard way. This is a translation of "Learn Python The
-Hard Way" to teach total beginners Ruby.   It's in the same style, and the
-content is nearly the same, but it will teach you Ruby.  If you have problems
-email help@learncodethehardway.org.
+欢迎阅读《笨方法学Ruby》。这本书自《笨方法学Python》修改而来，
+这两本书的风格一样，内容也比较相近，但是这本书会教你Ruby。
+如果你有问题，请给help@learncodethehardway.org发邮件。
+
 
 .. toctree::
    :maxdepth: 1
 
+   intro_zh
    intro
    ex0
    ex1
