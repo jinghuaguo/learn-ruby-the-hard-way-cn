@@ -22,26 +22,27 @@ Mac OS X
 做下列任务来完成习题：
 
 1.  用浏览器打开
-    `http://learnpythonthehardway.org/exercise0.html <http://learnpythonthehardway.org/exercise0.html>`_
-    下载并安装``gedit``文本编辑器。
-2.  把gedit放到Dock上，这样你就可以方便的使用它了。
+    `http://learnpythonthehardway.org/exercise0.html <http://learnpythonthehardway.org/exercise0.html>`_ 
+    下载并安装 ``gedit`` 文本编辑器。
+2.  把 ``gedit`` 放到Dock上，这样你就可以方便的使用它了。
 
     1. 打开gedit，我们要先改掉一些愚蠢的设置
-    2. 从``gedit menu``中打开``Preferences``，选择``Editor`` 标签
-    3. 将``Tab width``改为2.
+    2. 从 ``gedit menu`` 中打开 ``Preferences`` ，选择 ``Editor`` 标签
+    3. 将 ``Tab width`` 改为2.
     4. 选择 (确认有勾选到该选项)
        ``Insert spaces instead of tabs``.
-    5. 打开"Automatic indentation"选项
-    6. 转到``View``页面并打开"Display line numbers"选项
+    5. 打开 ``Automatic indentation`` 选项
+    6. 转到 ``View`` 页面并打开 ``Display line numbers`` 选项
 
-3.  找到系统中的 “命令行终端(Terminal)” 程序。到处找找，你会找到的。
+3.  找到系统中的 "命令行终端(Terminal)" 程序。到处找找，你会找到的。
 4.  把 Terminal 也放到 Dock 里面。
 5.  运行 Terminal 程序，这个程序看上去不怎么地。
 6.  在 Terminal 程序里边运行 ``irb`` (Ruby的互交式界面). 
     在 Terminal 中运行程序的方法是输入程序的名字再敲一下回车。
 
-    1. 如果你运行``irb``但系统提示不存在该程序(``irb``默认不会安装
-       ..). 用`Ruby Version Manager(RVM) <https://rvm.beginrescueend.com/>`_
+    1. 如果你运行``irb``但系统提示不存在该程序( ``irb`` 默认不会安装
+       ..). 用
+       `Ruby Version Manager(RVM) <https://rvm.beginrescueend.com/>`_
        来安装它
 
 7.  敲击 CTRL-D (``^D``) 退出 ``irb``.
@@ -50,7 +51,7 @@ Mac OS X
 9.  学着使用 Terminal 创建一个目录，你可以百度一下。
 10. 学着使用 Terminal 进入一个目录，同样你可以去问度娘。
 11. 使用你的编辑器在你进入的目录下建立一个文件。你将建立一个文件。
-    使用 "Save" 或者 "Save As..." 选项，然后选择这个目录。
+    使用 ``Save`` 或者 ``Save As...`` 选项，然后选择这个目录。
 12. 使用键盘切换回到 Terminal 窗口，如果不知道怎样使用键盘切换，你一样可以去百度。
 13. 回到 Terminal，看看你能不能使用命令看到你新建的文件，百度一下如何将文件夹中的内容列出来。
 
@@ -95,21 +96,22 @@ Windows
 2.  把 ``gedit`` 放到桌面或者快速启动栏，这样你就可以方便地访问到该程序了。这两条在安装选项中可以看到。
 
     1. 打开gedit，我们要先改掉一些愚蠢的设置
-    2. 从``gedit menu``中打开``Preferences``，选择``Editor`` 标签
-    3. 将``Tab width``改为2.
+    2. 从 ``gedit menu`` 中打开 ``Preferences`` ，选择 ``Editor`` 标签
+    3. 将 ``Tab width`` 改为2.
     4. 选择 (确认有勾选到该选项)
        ``Insert spaces instead of tabs``.
-    5. 打开"Automatic indentation"选项
-    6. 转到``View``页面并打开"Display line numbers"选项
-
+    5. 打开 ``Automatic indentation`` 选项
+    6. 转到 ``View`` 页面并打开 ``Display line numbers`` 选项
+    
 3.  找到 "Terminal" 程序。它的名字是 ``Command Prompt``，或者你可以直接运行 ``cmd``。 
 4.  为它创建一个快捷方式，放到桌面或者快速启动栏中以方便使用。
 5.  运行 Terminal 程序，这个程序看上去不怎么地。
 6.  在 Terminal 程序里边运行 ``irb`` (Ruby的互交式界面). 
     在 Terminal 中运行程序的方法是输入程序的名字再敲一下回车。
 
-    1. 如果你运行``irb``但系统提示不存在该程序(``irb``默认不会安装
-       ..). 用`Ruby Version Manager(RVM) <https://rvm.beginrescueend.com/>`_
+    1. 如果你运行``irb``但系统提示不存在该程序( ``irb`` 默认不会安装
+       ..). 用
+       `Ruby Version Manager(RVM) <https://rvm.beginrescueend.com/>`_
        来安装它
 
 7.  敲击 CTRL-Z (``^Z``) 退出 ``irb``.
@@ -118,7 +120,7 @@ Windows
 9.  学着使用 Terminal 创建一个目录，你可以百度一下。
 10. 学着使用 Terminal 进入一个目录，同样你可以去问度娘。
 11. 使用你的编辑器在你进入的目录下建立一个文件。你将建立一个文件。
-    使用 "Save" 或者 "Save As..." 选项，然后选择这个目录。
+    使用 ``Save`` 或者 ``Save As...`` 选项，然后选择这个目录。
 12. 使用键盘切换回到 Terminal 窗口，如果不知道怎样使用键盘切换，你一样可以去百度。
 13. 回到 Terminal，看看你能不能使用命令看到你新建的文件，百度一下如何将文件夹中的内容列出来。
 
@@ -171,16 +173,16 @@ Linux 系统可谓五花八门，安装软件的方式也各有不同。
 
 1.  用浏览器打开
     `http://learnpythonthehardway.org/exercise0.html <http://learnpythonthehardway.org/exercise0.html>`_
-    下载并安装``gedit``文本编辑器。（Ubuntu中默认的文本编辑器即为gedit --译注）
-2.  把 gedit (也就是你的编辑器) 放到窗口管理器显见的位置，以方便日后使用
+    下载并安装 ``gedit``文本编辑器。（Ubuntu中默认的文本编辑器即为gedit --译注）
+2.  把 ``gedit`` (也就是你的编辑器) 放到窗口管理器显见的位置，以方便日后使用
 
     1. 打开gedit，我们要先改掉一些愚蠢的设置
-    2. 从``gedit menu``中打开``Preferences``，选择``Editor`` 标签
-    3. 将``Tab width``改为2.
+    2. 从 ``gedit menu`` 中打开 ``Preferences`` ，选择 ``Editor`` 标签
+    3. 将 ``Tab width`` 改为2.
     4. 选择 (确认有勾选到该选项)
        ``Insert spaces instead of tabs``.
-    5. 打开"Automatic indentation"选项
-    6. 转到``View``页面并打开"Display line numbers"选项
+    5. 打开 ``Automatic indentation`` 选项
+    6. 转到 ``View`` 页面并打开 ``Display line numbers`` 选项
 
 3.  找到 "Terminal" 程序。它可能叫GNOME Terminal,Konsole, 或者 xterm.
 4.  把 Terminal 也放到 Dock 里面。（似乎是原作有误，多数Linux发行版没有预装Dock程序，同样扔到窗口管理器就好 --译注）
@@ -188,8 +190,9 @@ Linux 系统可谓五花八门，安装软件的方式也各有不同。
 6.  在 Terminal 程序里边运行 ``irb`` (Ruby的互交式界面). 
     在 Terminal 中运行程序的方法是输入程序的名字再敲一下回车。
 
-    1. 如果你运行``irb``但系统提示不存在该程序(``irb``默认不会安装
-       ..). 用`Ruby Version Manager(RVM) <https://rvm.beginrescueend.com/>`_
+    1. 如果你运行 ``irb`` 但系统提示不存在该程序( ``irb`` 默认不会安装
+       ..). 用
+       `Ruby Version Manager(RVM) <https://rvm.beginrescueend.com/>`_
        来安装它
 
 7.  敲击 CTRL-D (``^D``) 退出 ``irb``.
@@ -198,7 +201,7 @@ Linux 系统可谓五花八门，安装软件的方式也各有不同。
 9.  学着使用 Terminal 创建一个目录，你可以百度一下。
 10. 学着使用 Terminal 进入一个目录，同样你可以去问度娘。
 11. 使用你的编辑器在你进入的目录下建立一个文件。你将建立一个文件。
-    使用 "Save" 或者 "Save As..." 选项，然后选择这个目录。
+    使用 ``Save`` 或者 ``Save As...`` 选项，然后选择这个目录。
 12. 使用键盘切换回到 Terminal 窗口，如果不知道怎样使用键盘切换，你一样可以去百度。
 13. 回到 Terminal，看看你能不能使用命令看到你新建的文件，百度一下如何将文件夹中的内容列出来。
 
@@ -226,17 +229,17 @@ Linux: 你应该看到的
 如果你觉得压力山大，多花点时间学习一下，努力克服一下困难。
 因为如果你不会这些基础操作的话，编程对你来说将会更难学习。
 
-如果有个程序员让你用 `vim`` 或者 ``emacs``，你应该拒绝他们。
+如果有个程序员让你用 ``vim`` 或者 ``emacs``，你应该拒绝他们。
 当你成为一个更好的程序员的时候再去试着使用这些编辑器吧。
 现在你所需要的编辑器只要能打字就可以了。
-我们使用``gedit`` 因为它便于使用而且跨平台。
-就连专业程序员也会使用``gedit``，所以对于初学来说它已经够了。
+我们使用 ``gedit`` 因为它便于使用而且跨平台。
+就连专业程序员也会使用 ``gedit`` ，所以对于初学来说它已经够了。
 
 总有一天你会听到有程序员建议你用Mac OS X或者Linux。
 如果这个程序员喜欢美丽的字体，他会建议你去买一台苹果电脑。
 如果他们喜欢操控系统而且有一个大胡子，他们会让你去装Linux.
 再次声明，你手上只要有一台能用的电脑就行了。
-你所需要的只有``gedit``，终端（Terminal），以及Ruby。
+你所需要的只有 ``gedit`` ，终端（Terminal），以及Ruby。
 
 最后要说的是这节练习的准备工作的目的，也就是让你可以在以后的练习中顺利地做到下面的这些事情：
 
