@@ -5,19 +5,16 @@
 所谓的“笨办法”是指本书教授的方式。在这本书的帮助下，你将通过非常简单的练习学会一门编程语言。
 做练习是每个程序员的必经之路：
 
-1. Go through each exercise.
-2. Type in each sample exactly.
-3. Make it run.
+1. 做每一道习题
+2. 一字不差地写出每一个程序
+3. 让程序运行起来
 
-That's it. This will be *very* difficult at first, but stick with it. If
-you go through this book, and do each exercise for one or two hours a
-night, you will have a good foundation for moving onto another book. You
-might not really learn "programming" from this book, but you will learn
-the foundation skills you need to start learning the language.
+就这样了。一开始，这可能会*非常*难，但是你需要坚持下去。
+如果你读完了这本书，而且每天晚上花一两个小时做习题，
+你可以为读下一本书打下一个坚实的基础。
+你可能没法从这本书里真正学到“编程”，但是你能学到最基本的学习方法。
 
-This book's job is to teach you the three most essential skills that a
-beginning programmer needs to know: Reading and Writing, Attention to
-Detail, Spotting Differences.
+这本书的目的是教会你编程新手的三项最重要的技能：读&写、注重细节、发现不同。
 
 Reading and Writing
 -------------------
