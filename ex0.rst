@@ -40,7 +40,7 @@ Mac OS X
 6.  在 Terminal 程序里边运行 ``irb`` (Ruby的互交式界面). 
     在 Terminal 中运行程序的方法是输入程序的名字再敲一下回车。
 
-    1. 如果你运行``irb``但系统提示不存在该程序( ``irb`` 默认不会安装
+    1. 如果你运行 ``irb``但系统提示不存在该程序( ``irb`` 默认不会安装
        ..). 用
        `Ruby Version Manager(RVM) <https://rvm.beginrescueend.com/>`_
        来安装它
@@ -109,7 +109,7 @@ Windows
 6.  在 Terminal 程序里边运行 ``irb`` (Ruby的互交式界面). 
     在 Terminal 中运行程序的方法是输入程序的名字再敲一下回车。
 
-    1. 如果你运行``irb``但系统提示不存在该程序( ``irb`` 默认不会安装
+    1. 如果你运行 ``irb``但系统提示不存在该程序( ``irb`` 默认不会安装
        ..). 用
        `Ruby Version Manager(RVM) <https://rvm.beginrescueend.com/>`_
        来安装它
