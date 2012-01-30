@@ -40,7 +40,7 @@ Mac OS X
 6.  在 Terminal 程序里边运行 ``irb`` (Ruby的互交式界面). 
     在 Terminal 中运行程序的方法是输入程序的名字再敲一下回车。
 
-    1. 如果你运行 ``irb``但系统提示不存在该程序( ``irb`` 默认不会安装
+    1. 如果你运行 ``irb`` 但系统提示不存在该程序( ``irb`` 默认不会安装
        ..). 用
        `Ruby Version Manager(RVM) <https://rvm.beginrescueend.com/>`_
        来安装它
@@ -92,7 +92,7 @@ Windows
 
 1.  用浏览器打开
     `http://learnpythonthehardway.org/exercise0.html <http://learnpythonthehardway.org/exercise0.html>`_
-    下载并安装``gedit``文本编辑器。你不需要管理员权限也能顺利安装。
+    下载并安装 ``gedit`` 文本编辑器。你不需要管理员权限也能顺利安装。
 2.  把 ``gedit`` 放到桌面或者快速启动栏，这样你就可以方便地访问到该程序了。这两条在安装选项中可以看到。
 
     1. 打开gedit，我们要先改掉一些愚蠢的设置
@@ -103,13 +103,13 @@ Windows
     5. 打开 ``Automatic indentation`` 选项
     6. 转到 ``View`` 页面并打开 ``Display line numbers`` 选项
     
-3.  找到 "Terminal" 程序。它的名字是 ``Command Prompt``，或者你可以直接运行 ``cmd``。 
+3.  找到 ``Terminal`` 程序。它的名字是 ``Command Prompt`` ，或者你可以直接运行 ``cmd`` 。 
 4.  为它创建一个快捷方式，放到桌面或者快速启动栏中以方便使用。
 5.  运行 Terminal 程序，这个程序看上去不怎么地。
 6.  在 Terminal 程序里边运行 ``irb`` (Ruby的互交式界面). 
     在 Terminal 中运行程序的方法是输入程序的名字再敲一下回车。
 
-    1. 如果你运行 ``irb``但系统提示不存在该程序( ``irb`` 默认不会安装
+    1. 如果你运行 ``irb`` 但系统提示不存在该程序( ``irb`` 默认不会安装
        ..). 用
        `Ruby Version Manager(RVM) <https://rvm.beginrescueend.com/>`_
        来安装它
@@ -173,7 +173,7 @@ Linux 系统可谓五花八门，安装软件的方式也各有不同。
 
 1.  用浏览器打开
     `http://learnpythonthehardway.org/exercise0.html <http://learnpythonthehardway.org/exercise0.html>`_
-    下载并安装 ``gedit``文本编辑器。（Ubuntu中默认的文本编辑器即为gedit --译注）
+    下载并安装 ``gedit`` 文本编辑器。（Ubuntu中默认的文本编辑器即为gedit --译注）
 2.  把 ``gedit`` (也就是你的编辑器) 放到窗口管理器显见的位置，以方便日后使用
 
     1. 打开gedit，我们要先改掉一些愚蠢的设置
@@ -229,7 +229,7 @@ Linux: 你应该看到的
 如果你觉得压力山大，多花点时间学习一下，努力克服一下困难。
 因为如果你不会这些基础操作的话，编程对你来说将会更难学习。
 
-如果有个程序员让你用 ``vim`` 或者 ``emacs``，你应该拒绝他们。
+如果有个程序员让你用 ``vim`` 或者 ``emacs`` ，你应该拒绝他们。
 当你成为一个更好的程序员的时候再去试着使用这些编辑器吧。
 现在你所需要的编辑器只要能打字就可以了。
 我们使用 ``gedit`` 因为它便于使用而且跨平台。
