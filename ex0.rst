@@ -40,7 +40,7 @@ Mac OS X
 6.  在 Terminal 程序里边运行 ``irb`` (Ruby的互交式界面). 
     在 Terminal 中运行程序的方法是输入程序的名字再敲一下回车。
 
-    1. 如果你运行 ``irb``但系统提示不存在该程序( ``irb`` 默认不会安装
+    1. 如果你运行 ``irb`` 但系统提示不存在该程序( ``irb`` 默认不会安装
        ..). 用
        `Ruby Version Manager(RVM) <https://rvm.beginrescueend.com/>`_
        来安装它
@@ -103,13 +103,13 @@ Windows
     5. 打开 ``Automatic indentation`` 选项
     6. 转到 ``View`` 页面并打开 ``Display line numbers`` 选项
     
-3.  找到 "Terminal" 程序。它的名字是 ``Command Prompt``，或者你可以直接运行 ``cmd``。 
+3.  找到 ``Terminal`` 程序。它的名字是 ``Command Prompt`` ，或者你可以直接运行 ``cmd`` 。 
 4.  为它创建一个快捷方式，放到桌面或者快速启动栏中以方便使用。
 5.  运行 Terminal 程序，这个程序看上去不怎么地。
 6.  在 Terminal 程序里边运行 ``irb`` (Ruby的互交式界面). 
     在 Terminal 中运行程序的方法是输入程序的名字再敲一下回车。
 
-    1. 如果你运行 ``irb``但系统提示不存在该程序( ``irb`` 默认不会安装
+    1. 如果你运行 ``irb`` 但系统提示不存在该程序( ``irb`` 默认不会安装
        ..). 用
        `Ruby Version Manager(RVM) <https://rvm.beginrescueend.com/>`_
        来安装它
