@@ -1,16 +1,12 @@
-Exercise 15: Reading Files
+习题 15: 读取文件
 ==========================
 
-Everything you've learned about ``STDIN.gets`` and ``ARGV`` is so you
-can start reading files. You may have to play with this exercise the
-most to understand what's going on, so do it carefully and remember your
-checks. Working with files is an easy way to erase your work if you are
-not careful.
+你已经学过了 ``STDIN.gets`` 和 ``ARGV`` ，这些是你开始学习读取文件的必备基础。你
+可能需要多多实验才能明白它的工作原理，所以你要细心做练习，并且仔细检查结果。处理
+文件需要非常仔细，如果不仔细的话，你可能会把有用的文件弄坏或者清空。导致前功尽弃。
 
-This exercise involves writing two files. One is your usual ``ex15.rb``
-file that you will run, but the other is named ``ex15_sample.txt``. This
-second file isn't a script but a plain text file we'll be reading in our
-script. Here are the contents of that file:
+这节练习涉及到写两个文件。一个正常的 ``ex15.rb`` 文件，另外一个是 ``ex15_sample.txt`` ，
+第二个文件并不是脚本，而是供你的脚本读取的文本文件。以下是后者的内容：
 
 .. code-block:: console
 
@@ -18,43 +14,35 @@ script. Here are the contents of that file:
     It is really cool stuff.
     Lots and lots of fun to have in here.
 
-What we want to do is "open" that file in our script and print it out.
-However, we do not want to just "hard code" the name ``ex15_sample.txt``
-into our script. "Hard coding" means putting some bit of information
-that should come from the user as a string right in our program. That's
-bad because we want it to load other files later. The solution is to use
-``ARGV`` and ``STDIN.gets`` to ask the user what file they want instead
-of "hard coding" the file's name.
+我们要用我们的脚本“打开”该文件，然后打印出来。然而把文件名
+``ex15_sample.txt`` 写死在代码中不是一个好主意，这些信息应该是用户
+输入的才对。如果我们碰到其他文件要处理，写死的文件名就会给你带来麻烦了。我们的
+解决方案是使用 ``ARGV`` 和 ``STDIN.gets`` 来从用户获取信息，从而知道哪些文件该
+被处理。
 
 .. literalinclude:: ex/ex15.rb
     :language: ruby
     :linenos:
 
-A few fancy things are going on in this file, so let's break it down
-real quick:
+这个脚本中有一些新奇的玩意，我们来快速地过一遍：
 
-Line 1-3 should be a familiar use of ``ARGV`` to get a filename and
-setting up the prompt. Next we have line 4 where we use a new command
-``File.open``. Right now, run ``ri File.open`` from the command line and
-read the instructions. Notice how like your own scripts, it takes a
-parameter and returns a value you can set to your own variable. You just
-opened a file.
+代码的 1-3 行使用 ``ARGV`` 来获取文件名，这个你应该已经熟悉了。接下来第 4 行我
+们看到 ``File.open`` 这个新命令。现在请在命令行运行 ``ri File.open`` 来读读它的说明。
+注意到没有？到这多像你的脚本，它接收一个参数，并且传回一个值，
+你可以将这个值赋予一个变量。这就是你打开文件的过程。
 
-Line 6 we print a little line, but on line 7 we have something very new
-and exciting. We call a function on ``txt``. What you got back from
-``open`` is a ``file``, and it's also got commands you can give it. You
-give a file a command by using the ``.`` (dot or period), the name of
-the command, and parameters. Just like with ``File.open``. The
-difference is that when you say ``txt.read()`` you are saying, "Hey txt!
-Do your read command with no parameters!"
+第 6 行我们打印了一小行，但在第 7 行我们看到了新奇的东西。我们在 ``txt`` 上调
+用了一个函数。你调用 ``open`` 获得的东西是一个 ``文件`` (file)，文件本身也支持一些
+命令。它接受命令的方式是使用 ``.`` (英文称作 dot 或者 period)，紧跟着你的
+命令，然后是参数。就像 ``File.open`` 一样。不同点是：当你说
+ ``txt.read`` 时，你的意思其实是：“嘿 txt！执行你的 read 命令，无需任何参数！”
 
-The remainder of the file is more of the same, but we'll leave the
-analysis to you in the extra credit.
+脚本剩下的部分基本差不多，不过我就把剩下的分析作为加分习题留给你自己了。
 
-What You Should See
+你应该看到的
 -------------------
 
-I made a file called "ex15\_sample.txt" and ran my script.
+我的脚本叫 "ex15_sample.txt"，以下是执行结果：
 
 .. code-block:: console
 
@@ -72,30 +60,20 @@ I made a file called "ex15\_sample.txt" and ran my script.
 
     $
 
-Extra Credit
+加分习题
 ------------
 
-This is a big jump so be sure you do this extra credit as best you can
-before moving on.
+这节的难度跨越有点大，所以你要尽量做好这节加分习题，然后再继续后面的章节。
 
-1. Above each line write out in English what that line does.
-2. If you are not sure ask someone for help or search online. Many times
-   searching for "ruby THING" will find answers for what that THING does
-   in Ruby. Try searching for "ruby file.open".
-3. I used the name "commands" here, but they are also called "functions"
-   and "methods". Search around online to see what other people do to
-   define these. Do not worry if they confuse you. It's normal for a
-   programmer to confuse you with their vast extensive knowledge.
-4. Get rid of the part from line 9-15 where you use ``STDIN.gets`` and
-   try the script then.
-5. Use only ``STDIN.gets`` and try the script that way. Think of why one
-   way of getting the filename would be better than another.
-6. Run ``ri File`` and scroll down until you see the ``read()`` command
-   (method/function). See all the other ones you can use? Try some of
-   the other commands.
-7. Startup IRB again and use ``File.open`` from the prompt. Notice how
-   you can open files and run read on them right there?
-8. Have your script also do a ``close()`` on the ``txt`` and
-   ``txt_again`` variables. It's important to close files when you are
-   done with them.
+1. 在每一行的上面用注解说明这一行的用途。
+2. 如果你不确定答案，就问别人，或者上网搜索。大部分时候，只要搜索 "ruby" 加上
+   你要搜的东西就能得到你要的答案。比如搜索一下“ruby file.open”。
+3. 我使用了“命令”这个词，其实它也叫“函数（function）”和“方法（method）。
+   上网搜索一下这两者的意义和区别。看不明白也没关系，迷失在别的程序员的知识海洋
+   里是很正常的一件事情。
+4. 删掉 9-15 行使用到 ``STDIN.gets`` 的部分，再运行一遍脚本。
+5. 只是用 ``STDIN.gets`` 写这个脚本，想想那种得到文件名称的方法更好，以及为什么。
+6. 执行 ``ri File`` 然后往下卷动直到看见read()命令（函数/方法）。看到很多其他的命令了吧？玩玩看。
+7. 再次启动IRB，然后在里面使用 ``File.open`` 打开一个文件，这种open和read的方法也值得一学。
+8. 让你的脚本针对 ``txt`` 和 ``txt_again`` 变量执行一下close()，处理完文件后你需要将其关闭，这是很重要的一点。
 
