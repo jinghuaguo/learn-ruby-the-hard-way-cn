@@ -1,31 +1,28 @@
-Exercise 1: A Good First Program
+习题1：第一个程序
 ================================
 
-Remember, you should have spent a good amount of time in Exercise 0
-learning how to install a text editor, run the text editor, run the
-Terminal, and work with both of them. If you haven't done that then do
-not go on. You will not have a good time. This is the only time I'll
-start an exercise with a warning that you should not skip or get ahead
-of yourself.
+你应该在练习 0 中花了不少的时间，学会了如何安装文本编辑器、运行文本编辑器、
+以及如何运行命令行终端，而且你已经花时间熟悉了这些工具。
+请不要跳过前一个练习的内容直接进行下面的内容，这也是本书唯一的一次这样的警示。
 
 .. literalinclude:: ex/ex1.rb
     :language: ruby
     :linenos:
 
 
-Type the above into a single file named ``ex1.rb``. This is important as
-Ruby works best with files ending in ``.rb``.
+将上面的内容写到一个文件中，取名为 ``ex1.rb`` 。注意这个命名方式，Ruby文件最好以 ``.rb`` 结尾。
 
-Then in Terminal run the file by typing:
+然后你需要在命令行终端通过输入以下内容来运行这段代码：
 
 .. code-block:: console
 
     ruby ex1.rb
 
-If you did it right then you should see the same output I have below. If
-not, you have done something wrong. No, the computer is not wrong.
+如果你写对了的话，你应该看到和下面一样的内容。
+如果不一样，那就是你弄错了什么东西。
+不是计算机出错了，计算机没错。
 
-What You Should See
+你应该看到的
 -------------------
 
 .. code-block:: console
@@ -40,10 +37,10 @@ What You Should See
     I "said" do not touch this.
     $ 
 
-You may see the name of your directory before the ``$`` which is fine,
-but if your output is not exactly the same, find out why and fix it.
+你也许会看到 $ 前面会显示你所在的目录的名字，这不是问题，
+但如果你的输出不一样的话，你需要找出为什么会不一样，然后把你的程序改对。
 
-If you have an error it will look like this:
+如果你看到类似如下的错误信息：
 
 .. code-block:: console
 
@@ -52,36 +49,30 @@ If you have an error it will look like this:
     puts "This is fun."
               ^
 
-It's important that you can read these since you will be making many of
-these mistakes. Even I make many of these mistakes. Let's look at this
-line-by-line.
+这些内容你应该学会看懂的，这是很重要的一点，因为你以后还会犯类似的错误。
+就是我现在也会犯这样的错误。让我们一行一行来看。
 
-1. Here we ran our command in the terminal to run the ex1.rb script.
-2. Ruby then tells us that the file ex1.rb has an error on line 4.
-3. It then prints this line for us.
-4. Then it puts a ``^`` (caret) character to point at where the problem
-   is.
-5. Finally, it prints out a "syntax error" and tells us something about
-   what might be the error. Usually these are very cryptic, but if you
-   copy that text into a search engine, you will find someone else who's
-   had that error and you can probably figure out how to fix it.
+1. 首先我们在命令行终端输入命令来运行 ``ex1.rb`` 脚本。
+2. Ruby 告诉我们 ex1.rb 文件的第 4 行有一个错误。
+3. 然后这一行的内容被打印了出来。
+4. 然后 Ruby 打印出一个 ``^`` (井号，caret) 符号，用来指示出错的位置。
+5. 最后，它打印出了一个“语法错误(SyntaxError)”告诉你究竟是什么样的错误。
+   通常这些错误信息都非常难懂，不过你可以把错误信息的内容复制到搜索引擎里，
+   然后你就能看到别人也遇到过这样的错误， 而且你也许能找到如何解决这个问题。
 
-Extra Credit
+加分习题
 ------------
 
-You will also have Extra Credit. The Extra Credit contains things you
-should try to do. If you can't, skip it and come back later.
+你还会有 *加分习题* 需要完成。加分习题里边的内容是供你尝试的。
+如果你觉得做不出来，你可以暂时跳过，过段时间再回来做。
 
-For this exercise, try these things:
+在这个练习中，试试这些东西：
 
-1. Make your script print another line.
-2. Make your script print only one of the lines.
-3. Put a ``#`` (octothorpe) character at the beginning of a line. What
-   did it do? Try to find out what this character does.
-4. From now on, I won't explain how each exercise works unless an
-   exercise is different.
+1. 让你的脚本再多打印一行。
+2. 让你的脚本只打印一行。
+3. 在一行的起始位置放一个 ``#`` (octothorpe) 符号。它的作用是什么？自己研究一下。
+4. 从现在开始，除非特别情况，我将不再解释每个习题的工作原理了。
 
 .. note::
 
-    An 'octothorpe' is also called a 'pound', 'hash', 'mesh',
-    or any number of names. Pick the one that makes you chill out.
+    井号有很多的英文名字，例如：octothorpe(八角帽)，pound(英镑符), hash(电话的#键), mesh(网) 等。
