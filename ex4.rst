@@ -1,21 +1,17 @@
-Exercise 4: Variables And Names
+习题 4: 变量和命名
 ===============================
 
-Now you can print things with ``puts`` and you can do math. The next
-step is to learn about variables. In programming a variable is nothing
-more than a name for something so you can use the name rather than the
-something as you code. Programmers use these variable names to make
-their code read more like English, and because they have lousy memories.
-If they didn't use good names for things in their software, they'd get
-lost when they tried to read their code again.
+你已经学会了 ``puts`` 和算术运算，下一步你要学的是“变量”。
+在编程中，变量只不过是用来指代某个东西的名字。
+程序员通过使用变量名可以让他们的程序读起来更像英语。
+而且因为程序员的记性都不怎么地，变量名可以让他们更容易记住程序的内容。
+如果他们没有在写程序时使用好的变量名，在下一次读到原来写的代码时他们会大为头疼的。
 
-If you get stuck with this exercise, remember the tricks you have been
-taught so far of finding differences and focusing on details:
+如果你被这章习题难住了的话，记得我们之前教过的：找到不同点、注意细节。
 
-1. Write a comment above each line explaining to yourself what it does
-   in English.
-2. Read your ``.rb`` file backwards.
-3. Read your ``.rb`` file out loud saying even the characters.
+1. 在每一行的上面写一行注解，给自己解释一下这一行的作用。
+2. 倒着读你的 ``.rb`` 文件。
+3. 朗读你的 ``.rb`` 文件，将每个字符也朗读出来。
 
 .. literalinclude:: ex/ex4.rb
     :language: ruby
@@ -24,12 +20,10 @@ taught so far of finding differences and focusing on details:
 
 .. note::
 
-    The ``_`` in ``space_in_a_car`` is called an underscore
-    character. Find out how to type it if you do not already know. We
-    use this character a lot to put an imaginary space between words in
-    variable names.
+    ``space_in_a_car`` 中的 ``_`` 叫做 ``下划线(underscore)`` 。
+    你要自己学会怎样打出这个字符来。这个符号在变量里通常被用作假想的空格，用来隔开单词。
 
-What You Should See
+你应该看到的
 -------------------
 
 .. code-block:: console
@@ -43,30 +37,24 @@ What You Should See
     We need to put about 3 in each car.
     $
 
-Extra Credit
+加分习题
 ------------
 
-When I wrote this program the first time I had a mistake, and Ruby told
-me about it like this:
+当我刚开始写这个程序时我犯了个错误，Ruby 告诉我这样的错误信息：
 
 ::
 
     ex4.rb:8:in `<main>': undefined local variable or method `car_pool_capacity' for main:Object (NameError)
 
-Explain this error in your own words. Make sure you use line numbers and
-explain why.
+用你自己的话解释一下这个错误信息，解释时记得使用行号，而且要说明原因。
 
-Here's more extra credit:
+更多的加分习题:
 -------------------------
 
-1. Explain why the 4.0 is used instead of just 4.
-2. Remember that 4.0 is a "floating point" number. Find out what that
-   means.
-3. Write comments above each of the variable assignments.
-4. Make sure you know what ``=`` is called (equals) and that it's making
-   names for things.
-5. Remember ``_`` is an underscore character.
-6. Try running IRB as a calculator like you did before and use variable
-   names to do your calculations. Popular variable names are also ``i``,
-   ``x``, and ``j``.
-
+1. 解释一下为什么程序里用了 4.0 而不是 4。
+2. 记住 4.0 是一个“浮点数”，自己研究一下这是什么意思。
+3. 在每一个变量赋值的上一行加上一行注解。
+4. 记住 ``=`` 的名字是等于(equal)，它的作用是为东西取名。
+5. 记住 ``_`` 是下划线字符(underscore)。
+6. 将 IRB 作为计算器运行起来，就跟以前一样，
+   不过这一次在计算过程中使用变量名来做计算，常见的变量名有 i, x, j 等等。
