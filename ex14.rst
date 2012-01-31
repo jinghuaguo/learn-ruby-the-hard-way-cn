@@ -1,27 +1,24 @@
-Exercise 14: Prompting And Passing
+习题 14: 提示和传递
 ==================================
 
-Let's do one exercise that uses ``ARGV`` and ``gets.chomp()`` together
-to ask the user something specific. You will need this for the next
-exercise where we learn to read and write files. In this exercise we'll
-print a simple ``>`` prompt. This is similar to a game like Zork or
-Adventure.
+让我们用  ``ARGV`` 和 ``gets.chomp()`` 来向用户提一些特别的问题。下一节习题
+你会学习如何读写文件，这节练习是下节的基础。在这道习题里我们将用略微不同的方法
+使用 ``raw_input`` ，让它打出一个简单的 ``>`` 作为提示符。这和一些游戏中的方式
+类似，例如 Zork 或者 Adventure 这两款游戏。
 
 .. literalinclude:: ex/ex14.rb
     :language: ruby
     :linenos:
 
-**Important:** Also notice that we're using ``STDIN.gets``
-instead of plain 'ol ``gets``. That is because if there is stuff in
-``ARGV``, the default ``gets`` method tries to treat the first one as a
-file and read from that. To read from the user's input (i.e., ``stdin``)
-in such a situation, you have to use it ``STDIN.gets`` explicitly.
+**注意：** 需要注意我们用 ``STDIN.gets`` 
+代替了 ``gets`` 。这是因为如果有东西在 ``ARGV`` 里，
+标准的 ``gets`` 会把第一个参数当做文件而尝试从里面读东西。
+为了读取用户的输入(如 ``stdin`` )，我们必须明确的使用 ``STDIN.gets`` 。
 
-What You Should See
+你应该看到的
 -------------------
 
-When you run this, remember that you have to give the script your name
-for the ``ARGV`` arguments.
+当你执行这个脚本时，记住你需要把你的名字传给这个脚本，让ARGV可以接收到。
 
 .. code-block:: console
 
@@ -38,14 +35,10 @@ for the ``ARGV`` arguments.
     You live in America.  Not sure where that is.
     And you have a Tandy computer.  Nice.
 
-Extra Credit
+加分习题
 ------------
 
-1. Find out what Zork and Adventure were. Try to find a copy and play
-   it.
-2. Change the ``prompt`` variable to something else entirely.
-3. Add another argument and use it in your script.
-4. Make sure you understand how I combined a ``<<SOMETHING`` style
-   multi-line string with ``#{ }`` string interpolation as the last
-   print.
-
+1. 查一下 Zork 和 Adventure 是两个怎样的游戏。 下一份，然后玩玩看。
+2. 将 ``prompt`` 变量改成完全不同的内容再运行一遍。
+3. 给你的脚本再添加一个参数，让你的程序用到这个参数。
+4. 确保你自己明白了我是怎么把 ``<<SOMETHING`` 的多行字符串和 ``#{ }`` 字符串插值结合到一起来输出文本的。
