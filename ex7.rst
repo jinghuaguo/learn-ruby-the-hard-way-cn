@@ -1,16 +1,15 @@
-Exercise 7: More Printing
+习题 7: 更多打印
 =========================
 
-Now we are going to do a bunch of exercises where you just type code in
-and make it run. I won't be explaining much since it is just more of the
-same. The purpose is to build up your chops. See you in a few exercises,
-and do not skip! Do not paste!
+现在我们将做一批练习，在练习的过程中你需要键入代码，并且让它们运行起来。
+我不会解释太多，因为这节的内容都是以前熟悉过的。这节练习的目的是巩固你学到的东西。
+我们几个练习后再见。不要跳过这些习题。不要复制粘贴！
 
 .. literalinclude:: ex/ex7.rb
     :language: ruby
     :linenos:
 
-What You Should See
+你应该看到的
 -------------------
 
 .. code-block:: console
@@ -23,18 +22,16 @@ What You Should See
     CheeseBurger
     $
 
-Extra Credit
-------------
+加分习题
+============
 
-For these next few exercises, you will have the exact same extra credit.
+接下来几节的加分习题是一样的。
 
-1. Go back through and write a comment on what each line does.
-2. Read each one backwards or out loud to find your errors.
-3. From now on, when you make mistakes write down on a piece of paper
-   what kind of mistake you made.
-4. When you go to the next exercise, look at the last mistakes you made
-   and try not to make them in this new one.
-5. Remember that everyone makes mistakes. Programmers are like magicians
-   who like everyone to think they are perfect and never wrong, but it's
-   all an act. They make mistakes all the time.
+1. 逆向阅读，在每一行的上面加一行注解。
+2. 倒着朗读出来，找出自己的错误。
+3. 从现在开始，把你的错误记录下来，写在一张纸上。
+4. 在开始下一节习题时，阅读一遍你记录下来的错误，并且尽量避免在下个练习中再犯同样的错误。
+5. 记住，每个人都会犯错误。程序员和魔术师一样，他们希望大家认为他们从不犯错，不\
+   过这只是表象而已，他们每时每刻都在犯错。
+
 
