@@ -1,11 +1,11 @@
-Exercise 8: Printing, Printing
+习题 8: 打印，打印
 ==============================
 
 .. literalinclude:: ex/ex8.rb
     :language: ruby
     :linenos:
 
-What You Should See
+你应该看到的
 -------------------
 
 .. code-block:: console
@@ -18,9 +18,8 @@ What You Should See
     I had this thing. That you could type up right. But it didn't sing. So I said goodnight.
     $
 
-Extra Credit
+加分习题
 ------------
 
-1. Do your checks of your work, write down your mistakes, try not to
-   make them on the next exercise.
+1. 自己检查结果，记录你犯过的错误，并且在下个练习中尽量不犯同样的错误。
 

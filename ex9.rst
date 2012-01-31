@@ -1,11 +1,11 @@
-Exercise 9: Printing, Printing, Printing
+习题 9: 打印，打印，打印
 ========================================
 
 .. literalinclude:: ex/ex9.rb
     :language: ruby
     :linenos:
 
-What You Should See
+你应该看到的
 -------------------
 
 .. code-block:: console
@@ -27,8 +27,7 @@ What You Should See
     We'll be able to type as much as we like.
     Even 4 lines if we want, or 5, or 6.
 
-Extra Credit
+加分习题
 ------------
 
-Do your checks of your work, write down your mistakes, try not to make
-them on the next exercise.
+自己检查结果，记录你犯过的错误，并且在下个练习中尽量不犯同样的错误。
