@@ -1,63 +1,24 @@
-Advice From An Old Programmer
+一个老程序员的建议
 =============================
 
-You've finished this book and have decided to continue with programming.
-Maybe it will be a career for you, or maybe it will be a hobby. You'll
-need some advice to make sure you continue on the right path, and get
-the most enjoyment out of your newly chosen activity.
+你已经完成了这本书而且打算继续编程。也许这会成为你的一门职业，也许你只是作为业余爱好玩玩。无论如何，你都需要一些建议以保证你在正确的道路上继续前行，并且让这项新的爱好为你带来最大程度的享受。
 
-I've been programming for a very long time. So long that it's incredibly
-boring to me. At the time that I wrote this book, I knew about 20
-programming languages and could learn new ones in about a day to a week
-depending on how weird they were. Eventually though this just became
-boring and couldn't hold my interest anymore. This doesn't mean I think
-programming *is* boring, or that *you* will think it's boring, only that
-I find it uninteresting at this point in my journey.
+我从事编程已经太长时间，长到对我来说编程已经是非常乏味的事情了。我写这本书的时候，已经懂得大约 20 种编程语言，而且可以在大约一天或者一个星期内学会一门编程语言(取决于这门语言有多古怪)。现在对我来说编程这件事情已经很无聊，已经谈不上什么兴趣了。当然这不是说编程本身是一件无聊的事情，也不是说你以后也一定会这样觉得，这只是我个人在当前的感觉而已。
 
-What I discovered after this journey of learning is that it's not the
-languages that matter but what you do with them. Actually, I always knew
-that, but I'd get distracted by the languages and forget it
-periodically. Now I never forget it, and neither should you.
+在这么久的旅程下来我的体会是：编程语言这东西并不重要，重要的是你用这些语言做的事情。事实上我一直知道这一点，不过以前我会周期性地被各种编程语言分神而忘记了这一点。现在我是永远不会忘记这一点了，你也不应该忘记这一点。
 
-Which programming language you learn and use doesn't matter. Do *not*
-get sucked into the religion surrounding programming languages as that
-will only blind you to their true purpose of being your tool for doing
-interesting things.
+你学到和用到的编程语言并不重要。不要被围绕某一种语言的宗教把你扯进去，这只会让你忘掉了语言的真正目的，也就是作为你的工具来实现有趣的事情。
 
-Programming as an intellectual activity is the *only* art form that
-allows you to create interactive art. You can create projects that other
-people can play with, and you can talk to them indirectly. No other art
-form is quite this interactive. Movies flow to the audience in one
-direction. Paintings do not move. Code goes both ways.
+编程作为一项智力活动，是唯一一种能让你创建交互式艺术的艺术形式。你可以创建项目让别人使用，而且你可以间接地和使用者沟通。没有其他的艺术形式能做到如此程度的交互性。电影领着观众走向一个方向，绘画是不会动的。而代码却是双向互动的。
 
-Programming as a profession is only moderately interesting. It can be a
-good job, but you could make about the same money and be happier running
-a fast food joint. You're much better off using code as your secret
-weapon in another profession.
+编程作为一项职业只是一般般有趣而已。编程可能是一份好工作，但如果你想赚更多的钱而且过得更快乐，你其实开一间快餐分店就可以了。你最好的选择是将你的编程技术作为你其他职业的秘密武器。
 
-People who can code in the world of technology companies are a dime a
-dozen and get no respect. People who can code in biology, medicine,
-government, sociology, physics, history, and mathematics are respected
-and can do amazing things to advance those disciplines.
+技术公司里边会编程的人多到一毛钱一打，根本得不到什么尊敬。而在生物学、医药学、政府部门、社会学、物理学、数学等行业领域从事编程的人就能得到足够的尊敬，而且你可以使用这项技能在这些领域做出令人惊异的成就。
 
-Of course, all of this advice is pointless. If you liked learning to
-write software with this book, you should try to use it to improve your
-life any way you can. Go out and explore this weird wonderful new
-intellectual pursuit that barely anyone in the last 50 years has been
-able to explore. Might as well enjoy it while you can.
+当然，所有的这些建议都是没啥意义的。如果你跟着这本书学习写软件而且觉得很喜欢这件事情的话，那你完全可以将其当作一门职业去追求。你应该继续深入拓展这个近五十年来极少有人探索过的奇异而美妙的智力工作领域。若能从中得到乐趣当然就更好了。
 
-Finally, I'll say that learning to create software changes you and makes
-you different. Not better or worse, just different. You may find that
-people treat you harshly because you can create software, maybe using
-words like "nerd". Maybe you'll find that because you can dissect their
-logic that they hate arguing with you. You may even find that simply
-knowing how a computer works makes you annoying and weird to them.
+最后我要说的是学习创造软件的过程会改变你而让你与众不同。不是说更好或更坏，只是不同了。你也许会发现因为你会写软件而人们对你的态度有些怪异，也许会用“怪人”这样的词来形容你。也许你会发现因为你会戳穿他们的逻辑漏洞而他们开始讨厌和你争辩。甚至你可能会发现有人因为你懂得计算机怎么工作而觉得你是个讨厌的怪人。
 
-To this I have just one piece of advice: they can go to hell. The world
-needs more weird people who know how things work and who love to figure
-it all out. When they treat you like this, just remember that this is
-*your* journey, not theirs. Being different is not a crime, and people
-who tell you it is are just jealous that you've picked up a skill they
-never in their wildest dreams could acquire.
+对于这些我只有一个建议: 让他们去死吧。这个世界需要更多的怪人，他们知道东西是怎么工作的而且喜欢找到答案。当他们那样对你时，只要记住这是你的旅程，不是他们的。“与众不同”不是谁的错，告诉你“与众不同是一种错”的人只是嫉妒你掌握了他们做梦都不能想到的技能而已。
 
-You can code. They cannot. That is pretty damn cool.
+你会编程。他们不会。这真他妈的酷。
